@@ -1,0 +1,22 @@
+{
+  "semanticCommits": "enabled",
+  "packageRules": [
+    {
+      "description": "Group NatchOS packages together.",
+      "groupName": "NatchOS",
+      "matchPackagePrefixes": [
+        "NatchOS."
+      ]
+    },
+    {
+      "description": "Group NatchCms packages together.",
+      "groupName": "NatchCms",
+      "matchPackagePrefixes": [
+        "NatchCms."
+      ]
+    }
+  ],
+  "html": {
+    "fileMatch": ["\\.html?$", "\\.cshtml$"]
+  }
+}
