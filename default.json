@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Is config:recommended without ignoreModulesAndTests; show all confidence badges; removing hourly limit because we run once a day",
   "extends": [
     ":dependencyDashboard",
     ":semanticPrefixFixDepsChoreOthers",
@@ -10,7 +11,7 @@
     "workarounds:all",
     
     "mergeConfidence:all-badges",
-    ":prHourlyLimitNone",
+    ":prHourlyLimitNone"
   ],
   "semanticCommits": "enabled",
   "packageRules": [
