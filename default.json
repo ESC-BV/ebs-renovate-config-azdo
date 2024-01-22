@@ -8,14 +8,14 @@
   "semanticCommits": "enabled",
   "packageRules": [
     {
-      "description": "Group NatchOS packages together.",
+      "description": "Group all NatchOS packages together",
       "groupName": "NatchOS",
       "matchPackagePrefixes": [
         "NatchOS."
       ]
     },
     {
-      "description": "Group NatchCms packages together.",
+      "description": "Group all NatchCms packages together",
       "groupName": "NatchCms",
       "matchPackagePrefixes": [
         "NatchCms."
